@@ -2,6 +2,8 @@ import React from 'react';
 import './Header.css';
 
 const Header = ({ onCategoryChange, onWishlistClick, activeCategory }) => {
+
+  //Categories for filter buttons
   const categories = ['Dogs', 'Cats', 'Lions', 'Tigers', 'Snakes'];
 
   return (
