@@ -4,6 +4,20 @@ This project represents an "Online Art Gallery" with the help of unsplash API. O
 On loading the default images are loaded from all categories. Once any filter buttons is cliked the images as per that specific categories are pulled from the unsplash API. 
 The user also has the ability to like images from any of the pages. The images are then stored in local storage and can be accessed under the favourites button.
 
+## Features
+1. Spinner Loader
+2. Using 3rd Party API to GET the images
+3. Filterable Gallery
+4. Ability to Like/Unlike an Art
+5. Click image to enlarge and more details
+6. Visit all liked images in a modal
+7. User choices are stored locally
+7. Responsive
+
+### Instructions
+1. clone the repo and run ``npm install``
+2. From the artify folder run ``npm start``
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -34,5 +48,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Technologies used
 1. unsplash API
 2. React
+
 
 
