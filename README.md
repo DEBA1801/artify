@@ -2,6 +2,7 @@
 
 This project represents an "Online Art Gallery" with the help of unsplash API. Once the data is received. I am utilizing the same to create a Filterable Gallery.
 On loading the default images are loaded from all categories. Once any filter buttons is cliked the images as per that specific categories are pulled from the unsplash API. 
+The user also has the ability to like images from any of the pages. The images are then stored in local storage and can be accessed under the favourites button.
 
 ## Available Scripts
 
@@ -30,7 +31,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### API used
+### Technologies used
 1. unsplash API
 2. React
 
