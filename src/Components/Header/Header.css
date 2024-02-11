@@ -1,0 +1,72 @@
+/* src/Header.css */
+
+.Header {
+    color: #2a2a2a;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add some space between logo and title */
+  }
+  
+  .logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line on small screens */
+    justify-content: center; /* Center buttons horizontally */
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 5px 10px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transition: all 250ms linear;
+  }
+
+  .horizontal-divider{
+    border-top: 1px dashed red;
+    margin-bottom: 5%;
+  }
+
+  .wishlist-button{
+    background-color: bisque;
+    color:#2a2a2a;
+    border: 1px solid red;
+    border-radius: 25px;
+  }
+  .wishlist-button:hover{
+    background-color: rgb(250, 201, 142);
+    transition: all 250ms linear;
+  }
+  
+  @media print, screen and (max-width: 768px) {
+    .Header{
+      flex-direction: column;
+    }
+    
+  }

@@ -1,0 +1,68 @@
+/* Wishlist.css */
+.wishlist-modal {
+    position: absolute;
+    top: 15%;
+    margin: auto 10%;
+    left: 0;
+    width: 80%;
+    height: 700px;
+    background-color: rgb(255 255 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #c70101 #f0f0f0;
+
+    /* For Webkit browsers (Chrome, Safari) */
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #4a90e2;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #f0f0f0;
+    }
+  }
+  
+  .wishlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 16px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+  }
+  
+  .wishlist-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .wishlist-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .horizontal-divider{
+    border-top: 1px dashed red;
+    margin-bottom: 5%;
+  }
+
+  @media print, screen and (max-width: 768px) {
+    .wishlist-grid{
+      grid-template-columns: repeat(2, minmax(100px, 2fr));
+      margin-top: 20%;
+    }
+    .wishlist-modal{
+      justify-content: flex-start;
+    }
+  }
