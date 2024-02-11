@@ -1,5 +1,3 @@
-/* src/ImageDetails.css */
-
 .image-details-overlay {
     position: fixed;
     top: 0;
@@ -94,5 +92,5 @@
   .image-tags{
     text-align: left;
   }
-  /* Customize the styles as needed */
+
   

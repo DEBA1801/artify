@@ -13,6 +13,7 @@ The user also has the ability to like images from any of the pages. The images a
 6. Visit all liked images in a modal
 7. User choices are stored locally
 7. Responsive
+8. Google Fonts
 
 ### Instructions
 1. clone the repo and run ``npm install``

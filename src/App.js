@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
@@ -24,9 +23,9 @@ function App() {
   };
 
   useEffect(() => {
-    // Simulate data loading with a delay (you can replace this with actual data fetching)
+    // Simulate data loading with a delay
     const loadData = async () => {
-      await new Promise((resolve) => setTimeout(resolve, 500)); // Simulate 2 seconds loading
+      await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate 1 seconds loading
       setLoading(false);
     };
 

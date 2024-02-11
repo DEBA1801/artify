@@ -1,5 +1,4 @@
-// src/Header.js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Header.css';
 
 const Header = ({ onCategoryChange, onWishlistClick, activeCategory }) => {

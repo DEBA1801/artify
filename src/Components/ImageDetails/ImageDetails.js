@@ -1,5 +1,3 @@
-// src/ImageDetails.js
-
 import React from 'react';
 import './ImageDetails.css';
 

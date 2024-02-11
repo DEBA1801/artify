@@ -1,4 +1,3 @@
-// Wishlist.js
 import React, { useEffect, useState } from 'react';
 import './Wishlist.css';
 
@@ -8,11 +7,9 @@ const Wishlist = ({ onClose }) => {
   useEffect(() => {
     // Fetch liked images from local storage
     const userLikes = JSON.parse(localStorage.getItem('userLikes')) || {};
-    console.log('userLikes:', userLikes);
   
     // Filter out only liked images
     const likedImageIds = Object.keys(userLikes).filter((imageId) => userLikes[imageId]);
-    console.log('likedImageIds:', likedImageIds);
   
     // Set wishlist images
     setWishlistImages(likedImageIds);
